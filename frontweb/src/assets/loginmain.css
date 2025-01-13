@@ -1,0 +1,65 @@
+/* 页面容器样式 */
+.page-box {
+    background-color: #5B86E5; /* 设置背景颜色为蓝色 */
+    height: 100vh; /* 容器高度为视口高度的100% */
+    margin: 0; /* 移除容器的外边距 */
+    padding: 0; /* 移除容器的内边距 */
+    border: #5B86E5 0.1px solid; /* 设置容器边框颜色为蓝色，宽度为0.1px */
+    display: flex; /* 设置布局方式为Flex */
+    justify-content: center; /* 在水平方向上居中对齐子元素 */
+    align-content: center; /* 在垂直方向上居中对齐子元素 */
+}
+
+/* 白色背景容器样式 */
+.whiteback {
+    width: 80%; /* 容器宽度为父容器宽度的80% */
+    height: 80%; /* 容器高度为父容器高度的80% */
+    background-color: rgba(255, 255, 225, 0.51); /* 设置背景颜色为半透明的白色 */
+    margin: auto; /* 自动计算外边距，使容器在父容器中水平垂直居中 */
+    display: flex; /* 设置布局方式为Flex */
+}
+
+/* 主标题样式 */
+.maintitle {
+    font-size: 30px; /* 设置字体大小为30px */
+    font-weight: 290; /* 设置字体粗细 */
+    line-height: 60px; /* 设置行高为60px */
+    letter-spacing: 2px; /* 设置字母间距为2px */
+    color: #ffffff; /* 设置字体颜色为白色 */
+    margin: 50px 20px 0px 20px; /* 设置上、右、下、左边距 */
+    /* 上边 | 右边 | 下边 | 左边 */
+}
+
+/* 副标题样式 */
+.othertitle {
+    font-size: 25px; /* 设置字体大小为25px */
+    font-weight: 290; /* 设置字体粗细 */
+    line-height: 45px; /* 设置行高为45px */
+    letter-spacing: 2px; /* 设置字母间距为2px */
+    text-align: left; /* 设置文本对齐方式为左对齐 */
+    margin: -30px 20px 0px 20px; /* 设置上、右、下、左边距 */
+    color: rgba(255, 255, 255, 0.82); /* 设置字体颜色为半透明的白色 */
+}
+
+/* 图标块样式 */
+.iconblock {
+    /* logo */
+    width: 203px; /* 设置宽度为203px */
+    height: 203px; /* 设置高度为203px */
+    border-radius: 0px 120px 120px 0px; /* 设置边框圆角，左上角为0px，其他角为120px */
+    opacity: 1; /* 设置透明度为1，即不透明 */
+    background: #5B86E5; /* 设置背景颜色为蓝色 */
+    box-shadow: 0px 26px 56px 0px rgba(0, 0, 0, 0.25); /* 设置阴影效果 */
+    margin: 0px 25px 0px 20px; /* 设置上、右、下、左边距 */
+    display: flex; /* 设置布局方式为Flex */
+    justify-content: center; /* 在水平方向上居中对齐子元素 */
+    align-content: center; /* 在垂直方向上居中对齐子元素 */
+}
+
+/* 用户人群图标样式 */
+.icon-yonghumenrenqun {
+    color: #fff; /* 设置字体颜色为白色 */
+    position: relative; /* 设置定位方式为相对定位 */
+    top: 20%; /* 设置图标向上偏移20% */
+    font-size: 110px; /* 设置字体大小为110px */
+}

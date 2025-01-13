@@ -1,0 +1,37 @@
+/* 用户信息区域的样式 */
+.user {
+    margin: 0px 0px 0px 200px; /* 设置外边距为上下0px，左右200px */
+    width: 100%; /* 宽度为100% */
+    height: 100vh; /* 高度为视口高度的100% */
+    background-color: rgba(187, 179, 179, 0.04); /* 背景颜色为浅灰色透明 */
+}
+
+/* 标题区域的样式 */
+.title {
+    width: 170vh; /* 宽度为视口高度的170% */
+    margin: 15px; /* 外边距为15px */
+    border-radius: 10px; /* 边框圆角半径为10px */
+    background-color: rgb(255, 255, 255); /* 背景颜色为白色 */
+    height: 900px; /* 高度为900px */
+    box-shadow: 0px 12px 48px 0px rgba(0, 0, 0, 0.04); /* 阴影效果 */
+}
+
+/* 搜索区域的样式 */
+.search {
+    margin: 15px; /* 外边距为15px */
+}
+
+/* 内容区域的样式 */
+.content {
+    height: 550px; /* 高度为550px */
+    width: 80%; /* 宽度为父元素的80% */
+    margin: 15px; /* 外边距为15px */
+    border: #5B86E5; /* 边框颜色为蓝色 */
+    box-shadow: 0px 12px 48px 0px rgba(23, 28, 42, 0.04); /* 阴影效果 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+}
+
+/* 消息索引的样式，确保在堆叠上下文中处于较高位置 */
+.messageIndex {
+    z-index: 3000 !important; /* 设置z-index为3000，确保在堆叠上下文中处于较高位置 */
+}

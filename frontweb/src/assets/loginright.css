@@ -1,0 +1,124 @@
+.right {
+    z-index: 0; /* 设置z-index为0，使元素在堆叠上下文中位于较底层 */
+    width: 70%; /* 宽度为父元素的70% */
+    height: 100%; /* 高度为父元素的高度100% */
+    border-top-left-radius: 50px; /* 左上角边框圆角半径为50像素 */
+    border-bottom-left-radius: 50px; /* 左下角边框圆角半径为50像素 */
+    opacity: 1; /* 元素的不透明度为1，即不透明 */
+    background: #FFFFFF; /* 背景颜色为白色 */
+    display: flex; /* 设置为Flex布局 */
+    justify-content: center; /* Flex子项在主轴上居中排列 */
+    align-content: center; /* Flex子项在交叉轴上居中排列 */
+}
+
+.sign {
+    /* 登录 */
+    opacity: 1; /* 元素的不透明度为1，即不透明 */
+    /* font-family: Microsoft YaHei; */ /* 字体为微软雅黑，此行代码被注释掉，不生效 */
+    font-size: 20px; /* 字体大小为20像素 */
+    font-weight: 500; /* 字体粗细为500 */
+    line-height: 40px; /* 行高为40像素 */
+    letter-spacing: 2.4px; /* 字符间距为2.4像素 */
+    color: #264abe; /* 文本颜色为蓝色 */
+    margin-top: 95px; /* 上外边距为95像素 */
+}
+
+.form {
+    width: 60%; /* 宽度为父元素的60% */
+}
+
+.select {
+    width: 100%; /* 宽度为父元素的100% */
+    height: 50px; /* 高度为50像素 */
+    outline: 0; /* 去除轮廓线 */
+    font-size: 16px; /* 字体大小为16像素 */
+    font-weight: lighter; /* 字体粗细为lighter */
+    box-sizing: border-box; /* 盒模型为border-box */
+    border-width: 0px 0px 1px 0px; /* 上、右、下边框宽度为0，左边框宽度为1像素 */
+    color: #6b6868; /* 文本颜色为灰色 */
+    border-style: solid; /* 边框样式为实线 */
+    padding: 0; /* 内边距为0 */
+    &:focus {
+        border-color: #264abe; /* 获取焦点时边框颜色为蓝色 */
+        outline: 0; /* 获取焦点时去除轮廓线 */
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); /* 获取焦点时内部阴影效果 */
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); /* 获取焦点时内部阴影效果 */
+    }
+}
+
+.input {
+    outline-style: none; /* 去除轮廓线样式 */
+    border: 1px solid #a4a9a9; /* 边框为1像素的灰色实线 */
+    width: 100%; /* 宽度为父元素的100% */
+    height: 100%; /* 高度为父元素的高度100% */
+    /* padding: 0; */ /* 内边距为0，此行代码被注释掉，不生效 */
+    padding: 10px 0px; /* 上、下内边距为10像素，左右内边距为0像素 */
+    border-top: none; /* 上边框为无 */
+    border-left: none; /* 左边框为无 */
+    border-right: none; /* 右边框为无 */
+    box-sizing: border-box; /* 盒模型为border-box */
+    font-size: 18px; /* 字体大小为18像素 */
+    font-weight: lighter; /* 字体粗细为lighter */
+    color: #6b6868; /* 文本颜色为灰色 */
+    /* font-family: "Microsoft soft"; */ /* 字体为"Microsoft soft"，此行代码被注释掉，不生效 */
+    &:focus {
+        border-color: #264abe; /* 获取焦点时边框颜色为蓝色 */
+        outline: 0; /* 获取焦点时去除轮廓线 */
+        -webkit-box-shadow: inset 0 1px 1px;/* 获取焦点时内部阴影效果 */
+        rgba(0, 0, 0, 0.075):
+        #264abe;
+        box-shadow: inset 0 1px 1px; rgba(0, 0, 0, 0.075):
+        #264abe;
+    }
+}
+.submit {
+    width: 100%; /* 宽度为父元素的100% */
+    background-color: #fff; /* 背景颜色为白色 */
+    color: #5B86E5; /* 文本颜色为蓝色 */
+    border: #5B86E5 2px solid; /* 边框为2像素的蓝色实线 */
+    border-radius: 5px; /* 边框圆角半径为5像素 */
+    height: 45px; /* 高度为45像素 */
+}
+
+.submit:hover {
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    background-color: #2d55de; /* 鼠标悬停时背景颜色为深蓝色 */
+    color: #fff; /* 鼠标悬停时文本颜色为白色 */
+    border: #5B86E5; /* 鼠标悬停时边框颜色保持不变 */
+}
+
+.options {
+    position: relative; /* 相对定位 */
+    top: -10%; /* 相对于正常位置向上偏移10% */
+    font-size: 12px; /* 字体大小为12像素 */
+    color: #c0c4cc; /* 文本颜色为浅灰色 */
+}
+
+.hoveroptions {
+    position: relative; /* 相对定位 */
+    margin: 0px 5px; /* 外边距为0像素上下，5像素左右 */
+    left: 55%; /* 相对于正常位置向左偏移55% */
+    font-size: 14px; /* 字体大小为14像素 */
+    color: rgba(162, 162, 162, 0.68); /* 文本颜色为半透明的灰色 */
+    padding: 0; /* 内边距为0 */
+}
+
+.hoveroptions:hover {
+    color: #264abe; /* 鼠标悬停时文本颜色为蓝色 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+}
+
+.select:hover {
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+}
+
+.back {
+    margin: 20px 5px; /* 外边距为20像素上下，5像素左右 */
+    color: rgba(162, 162, 162, 0.68); /* 文本颜色为半透明的灰色 */
+    font-size: 15px; /* 字体大小为15像素 */
+}
+
+.back:hover {
+    color: #264abe; /* 鼠标悬停时文本颜色为蓝色 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+}

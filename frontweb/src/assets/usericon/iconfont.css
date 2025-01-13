@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1700643542768') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  /*font-size: 110px;*/
+  /*font-style: oblique;*/
+  font-style: normal;
+  /*color: #fff;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghumenrenqun:before {
+  content: "\e736";
+}
+
